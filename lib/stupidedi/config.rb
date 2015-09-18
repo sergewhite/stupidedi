@@ -101,6 +101,7 @@ module Stupidedi
           x.register("005010X220A1", "BE", "834") {Stupidedi::Versions::FunctionalGroups::FiftyTen::TransactionSetDefs::BE834}
           #x.register("005010X220A1", "BE", "834") { Stupidedi::Guides::FiftyTen::X220A1::BE834 }
 
+          x.register("005010X224A2",   "HC", "837") { Stupidedi::Guides::FiftyTen::X222::HC837P }
           x.register("004010X091A1", "HP", "835") { Stupidedi::Guides::FortyTen::X091A1::HP835 }
           x.register("005010X214",   "HN", "277") { Stupidedi::Guides::FiftyTen::X214::HN277  }
           x.register("005010X221",   "HP", "835") { Stupidedi::Guides::FiftyTen::X221::HP835  }

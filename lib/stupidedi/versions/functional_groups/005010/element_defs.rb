@@ -1247,7 +1247,7 @@ module Stupidedi
               "025" => "Reinstatement  - the member is added to the contract.",
               "001" => "Change: Used when a member's data is changing and their contract already exists",
               "024" => "Cancellation / Termination.",
-              "030" => "Audit or Compare This code is only used when active membership synchronization is scheduled."))
+              "030" => "active membership synchronization is scheduled."))
 
           E0000992   = t::AN.new(:E0000992  , "Maintenance Reason Code"                            , 1, 2)
           E0000993   = t::AN.new(:E0000993  , "Medicare Status Code"                            , 1, 2)
