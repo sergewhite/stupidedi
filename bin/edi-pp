@@ -9,8 +9,8 @@ GC.disable
 require "term/ansicolor" if ARGV.delete("-C")
 
 # config = Stupidedi::Config.default
-config = Stupidedi::Config.contrib
-# config = Stupidedi::Config.hipaa
+# config = Stupidedi::Config.contrib
+config = Stupidedi::Config.hipaa
 
 parser = Stupidedi::Builder::StateMachine.build(config)
 start  = Time.now
@@ -31,7 +31,7 @@ stop = Time.now
 
 parser.zipper.map{|z| pp z.root.node }.explain do
   # Multiple parse trees (non-deterministic state)
-  unless nondet
+  unless nondet 
     puts "Non-deterministic state"
   else
     puts "Non-deterministic states (#{parser.active.length}):"
@@ -49,7 +49,7 @@ begin
   a = parser.first
   b = parser.last
 
-  a.flatmap{|a1| b.flatmap{|b1| a1.distance(b1) }}.
+  a.flatmap{|a| b.flatmap{|b| a.distance(b) }}.
     tap{|d| puts "#{d + 1} segments" }
 end
 

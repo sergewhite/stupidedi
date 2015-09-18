@@ -6,6 +6,8 @@ module Stupidedi
 
 #          autoload :AAA,
 #            "stupidedi/versions/functional_groups/005010/segment_defs/AAA"
+          autoload :ACT,
+            "stupidedi/versions/functional_groups/005010/segment_defs/ACT"
 
           autoload :AK1,
             "stupidedi/versions/functional_groups/005010/segment_defs/AK1"
@@ -19,6 +21,9 @@ module Stupidedi
           autoload :AMT,
             "stupidedi/versions/functional_groups/005010/segment_defs/AMT"
 
+          autoload :BGN,
+            "stupidedi/versions/functional_groups/005010/segment_defs/BGN"
+
           autoload :BHT,
             "stupidedi/versions/functional_groups/005010/segment_defs/BHT"
 
@@ -27,6 +32,9 @@ module Stupidedi
 
           autoload :CAS,
             "stupidedi/versions/functional_groups/005010/segment_defs/CAS"
+
+          autoload :COB,
+            "stupidedi/versions/functional_groups/005010/segment_defs/COB"
 
           autoload :CL1,
             "stupidedi/versions/functional_groups/005010/segment_defs/CL1"
@@ -97,11 +105,14 @@ module Stupidedi
           autoload :IK5,
             "stupidedi/versions/functional_groups/005010/segment_defs/IK5"
 
-#          autoload :INS,
-#            "stupidedi/versions/functional_groups/005010/segment_defs/INS"
+          autoload :INS,
+            "stupidedi/versions/functional_groups/005010/segment_defs/INS"
 
           autoload :HCP,
             "stupidedi/versions/functional_groups/005010/segment_defs/HCP"
+
+          autoload :HD,
+            "stupidedi/versions/functional_groups/005010/segment_defs/HD"
 
           autoload :HI,
             "stupidedi/versions/functional_groups/005010/segment_defs/HI"
@@ -109,11 +120,17 @@ module Stupidedi
           autoload :HL,
             "stupidedi/versions/functional_groups/005010/segment_defs/HL"
 
+          autoload :HLH,
+            "stupidedi/versions/functional_groups/005010/segment_defs/HLH"
+
           autoload :K3,
             "stupidedi/versions/functional_groups/005010/segment_defs/K3"
 
           autoload :LIN,
             "stupidedi/versions/functional_groups/005010/segment_defs/LIN"
+
+          autoload :LUI,
+            "stupidedi/versions/functional_groups/005010/segment_defs/LUI"
 
           autoload :LQ,
             "stupidedi/versions/functional_groups/005010/segment_defs/LQ"

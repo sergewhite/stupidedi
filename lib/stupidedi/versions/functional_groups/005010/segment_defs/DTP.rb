@@ -8,7 +8,7 @@ module Stupidedi
           e = ElementDefs
           r = ElementReqs
 
-          DTP = s::SegmentDef.build(:DTP, "Date or Time Period",
+          DTP = s::SegmentDef.build(:DTP, "Date or Time Period/File Effective Date",
             "To specify any or all of a date, or a time period",
             e::E374 .simple_use(r::Mandatory,  s::RepeatCount.bounded(1)),
             e::E1250.simple_use(r::Mandatory,  s::RepeatCount.bounded(1)),

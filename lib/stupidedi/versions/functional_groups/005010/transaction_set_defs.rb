@@ -40,8 +40,8 @@ module Stupidedi
             "stupidedi/versions/functional_groups/005010/transaction_set_defs/RA820"
 
         # # 005010X220 Benefit Enrollment and Maintenance
-        # autoload :BE834, # Benefit Enrollment and Maintenance
-        #   "stupidedi/versions/functional_groups/005010/transaction_set_defs/BE834"
+          autoload :BE834, # Benefit Enrollment and Maintenance
+           "stupidedi/versions/functional_groups/005010/transaction_set_defs/BE834"
 
           # 005010X221 Health Care Claim Payment/Advice
           autoload :HP835, # Health Care Claim Payment/Advice

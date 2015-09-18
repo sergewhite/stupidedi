@@ -1240,6 +1240,22 @@ module Stupidedi
           E9998 = t::AN.new(:E9998, "Context Reference"                    , 1, 35)
           E9999 = t::AN.new(:E9998, "Context Name"                         , 1, 35)
 
+
+          E0000991 = t::ID.new(:E0000991, "Exception Code"                       , 1, 2,
+            s::CodeList.build(
+              "021" => "Addition - the member is added to the contract.",
+              "025" => "Reinstatement  - the member is added to the contract.",
+              "001" => "Change: Used when a member's data is changing and their contract already exists",
+              "024" => "Cancellation / Termination.",
+              "030" => "Audit or Compare This code is only used when active membership synchronization is scheduled."))
+
+          E0000992   = t::AN.new(:E0000992  , "Maintenance Reason Code"                            , 1, 2)
+          E0000993   = t::AN.new(:E0000993  , "Medicare Status Code"                            , 1, 2)
+          E0000994   = t::AN.new(:E0000994  , "Consolidated Omnibus Budget Reconciliation Act COBRA Qualifying Event Code", 1, 2)
+          E0000995   = t::AN.new(:E0000995  , "Health Related Code", 1, 2)
+          E0000996   = t::AN.new(:E0000996  , "Plan Coverage Description", 1, 32)
+          E0000997   = t::AN.new(:E0000997  , "Coverage Level Code", 2, 3)
+
           C001 = Schema::CompositeElementDef.build(:C001,
             "Composite Unit of Measure",
             "To identify a composite unit of measure",
